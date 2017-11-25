@@ -1,0 +1,110 @@
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Friend Finder - Survey</title>
+</head>
+<body>
+    <h1>Take our survey so we can find you a match!</h1>
+	<form action='/api/friends' method="post">
+		<h2>Please type in your full name and post a web-accessible image url of yourself.</h2>
+		Full Name (required): <input type='text' name='name'>
+		<br><br>
+		Image URL (required): <input type="text" name="image">
+    	<h2>Each question asks for a self-ranking between 1-5. A self-rank of 1 indicates that you don't embody the particular quality at all and a self-rank of 5 indicates that you maximally embody the particular quality.
+    	</h2>
+    	<h4>I am open to new ideas and exploratory discussion.</h4>
+		<select name="1">
+	    	<option value="1">1</option>
+	    	<option value="2">2</option>
+	    	<option value="3">3</option>
+	    	<option value="4">4</option>
+	    	<option value="5">5</option>
+	  	</select>
+	  	<br>
+	  	<h4>I engage in a wide variety of activity.</h4>
+	  	<select name="2">
+	    	<option value="1">1</option>
+	    	<option value="2">2</option>
+	    	<option value="3">3</option>
+	    	<option value="4">4</option>
+	    	<option value="5">5</option>
+	  	</select>
+	  	<br>
+	  	<h4>I enjoy solitude and can manage without others.</h4>
+	  	<select name="3">
+	    	<option value="1">1</option>
+	    	<option value="2">2</option>
+	    	<option value="3">3</option>
+	    	<option value="4">4</option>
+	    	<option value="5">5</option>
+	  	</select>
+	  	<br>
+	  	<h4>I laugh at myself a lot and readily appreciate comedy.</h4>
+	  	<select name="4">
+	    	<option value="1">1</option>
+	    	<option value="2">2</option>
+	    	<option value="3">3</option>
+	    	<option value="4">4</option>
+	    	<option value="5">5</option>
+	  	</select>
+	  	<br>
+	  	<h4>I am ambitious and have a sublime vision for the future.</h4>
+	  	<select name="5">
+	    	<option value="1">1</option>
+	    	<option value="2">2</option>
+	    	<option value="3">3</option>
+	    	<option value="4">4</option>
+	    	<option value="5">5</option>
+	  	</select>
+	  	<br>
+	  	<h4>My mind wanders and fantasizes constantly.</h4>
+	  	<select name="6">
+	    	<option value="1">1</option>
+	    	<option value="2">2</option>
+	    	<option value="3">3</option>
+	    	<option value="4">4</option>
+	    	<option value="5">5</option>
+	  	</select>
+	  	<br>
+	  	<h4>I indulge in my own sense perception.</h4>
+	  	<select name="7">
+	    	<option value="1">1</option>
+	    	<option value="2">2</option>
+	    	<option value="3">3</option>
+	    	<option value="4">4</option>
+	    	<option value="5">5</option>
+	  	</select>
+	  	<br>
+	  	<h4>I feel powerful and profound emotion.</h4>
+	  	<select name="8">
+	    	<option value="1">1</option>
+	    	<option value="2">2</option>
+	    	<option value="3">3</option>
+	    	<option value="4">4</option>
+	    	<option value="5">5</option>
+	  	</select>
+	  	<br>
+	  	<h4>I am compassionate and empathetic to the suffering of others.</h4>
+	  	<select name="9">
+	    	<option value="1">1</option>
+	    	<option value="2">2</option>
+	    	<option value="3">3</option>
+	    	<option value="4">4</option>
+	    	<option value="5">5</option>
+	  	</select>
+	  	<br>
+	  	<h4>I say yes to every aspect of life.</h4>
+	  	<select name="10">
+	    	<option value="1">1</option>
+	    	<option value="2">2</option>
+	    	<option value="3">3</option>
+	    	<option value="4">4</option>
+	    	<option value="5">5</option>
+	  	</select>
+	  	<br><br>
+	  	<input type="submit">
+    </form>
+    <button>See Possible Friends</button>
+</body>
+</html>
